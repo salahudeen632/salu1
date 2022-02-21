@@ -11,7 +11,7 @@ rotated_circle = paramak.ExtrudeCircleShape(
     radius=.95,
     distance=1.2,
     workplane='XZ',
-    stl_filename='part0.stl',
+ 
 )
 
 
@@ -30,8 +30,7 @@ grey_part = paramak.ExtrudeMixedShape(
     color=(0.5,0.5,0.5),
     cut=rotated_circle,
     material_tag='tungsten',
-    stp_filename='part1.stp',
-    stl_filename='part1.stl',
+   
 )
 
 
@@ -49,7 +48,7 @@ rotated_straights = paramak.RotateMixedShape(
     workplane='XY',
     rotation_angle=360,
     material_tag='Cu',
-    stl_filename='part2.stl',
+   
 )
 
 
@@ -64,7 +63,7 @@ rotated_straights1 = paramak.RotateMixedShape(
     workplane='XY',
     rotation_angle=360,
     material_tag='cuzrcr',
-    stl_filename='part3.stl',
+ 
 )
 
 
